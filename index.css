@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: cyan;
+    user-select: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border: 1px solid rgb(19, 138, 138);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+#initialPrice, #stocksQuantity, #currentPrice {
+    width: 160px;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(90, 54, 54);
+}
+
+
+#btn {
+    width: 100px;
+    margin: 1rem auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    
+}
+
+#output {
+    color: coral;
+}
+
+.profit {
+    color: rgb(32, 111, 32) !important;
+}
+
+.loss {
+    color: rgb(165, 33, 33) !important;
+}
+
+
+
+
+/* remove Number input button */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
