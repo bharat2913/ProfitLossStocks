@@ -31,6 +31,8 @@ function calculateProfitAndLoss(initial, quantity, current) {
   } else {
     // rest
     showOutput(`No pain NO gain, No gain No Pain`);
+    output.classList.remove('loss');
+    output.classList.remove('profit');
   }
 }
 
